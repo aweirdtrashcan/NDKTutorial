@@ -3,7 +3,7 @@
 //
 #include <jni.h>
 extern "C"
-JNIIMPORT jint JNICALL
+JNIEXPORT jint JNICALL
 Java_com_aweirdtrashcan_ndktutorial_Math_add(
         JNIEnv* pEnv,
         jobject pThis,
